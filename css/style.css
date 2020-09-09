@@ -4,13 +4,17 @@
 
 body
 	{
-		background: #ffffff;
+		background: linear-gradient(to right white, grey)
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     position: relative;
-    cursor: pointer;
-	}
-
+    
+  }
+  
+.first{
+ margin-top: 80px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .heading {
   font-size: 22px;
   font-weight: 500;
@@ -122,9 +126,10 @@ hr {
   height:70px;
 }
 .img-fluid{
-  margin-top: -185px;
+  margin-top: -135px;
   max-width: 100%;
-  height: auto;
+  width:400px;
+  height:345px;
   cursor: pointer;
   
 }
@@ -146,7 +151,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* home section */
 #home {
-  background: url('../images/FoodStad.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/FoodStad.jpg');
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -272,16 +277,37 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #999;
   color: #ffffff;
 }
+.heading{
+  margin-top: 50px;
+}
 
 /* footer section */
 footer {
   background: url('../images/staffs1.jpg') 50% 0 repeat-y fixed;
+  background-color: #3f3f3f;
+    color: #d5d5d5;
+  border-top:10px solid wheat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
   color: #ffffff;
   padding-top: 80px;
   padding-bottom: 80px;
+
+}
+
+#buttons{
+  margin:10px 100px;
+  padding:10px;
+  background: rgb(86, 86, 233);
+  color:white;
+  cursor: pointer;
+  border:2px solid rgb(86, 86, 233);
+}
+#buttons:hover{
+  background:rgba(202, 202, 233, 0.5);
+  padding:10px;
+  border:2px solid rgba(202, 202, 233, 0.5);
 }
 footer h2 {
   padding-bottom: 14px;
@@ -351,3 +377,6 @@ footer .fa {
 #copyright a:hover {
   color: #FF0;
 }
+
+
+
