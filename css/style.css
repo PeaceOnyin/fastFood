@@ -10,6 +10,38 @@ body
     position: relative;
     
   }
+
+  /*this is the style for test run, practicalizing how to implement image grid*/
+  .box-wrap{
+    width: 300px;
+    display: flex;
+  }
+  
+  .box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .box-1{
+    background: red;
+  }
+  
+  .box-2{
+    background: yellow;
+  }
+  
+  .box-3{
+    background: blue;
+  }
+  
+  .scale-back{
+    transform: scale(0.7);
+    transition: transform .3s ease-in-out;
+  }
+  /*it ends here*/
   
 .first{
  margin-top: 80px;
